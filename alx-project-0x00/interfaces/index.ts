@@ -4,3 +4,6 @@ export interface User {
   email: string // Email address of the user
   password: string // Password for the user account
 } 
+export interface PillProps {
+  title: string // Title to be displayed in the pill component
+}
